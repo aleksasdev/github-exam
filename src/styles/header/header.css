@@ -33,7 +33,12 @@ header{
 }
 .hero-container span[target]{
    color: var(--color-text-priamry-shade);
-   text-decoration: dashed;
+   border-bottom: var(--border-size1) dotted var(--color-text-priamry-shade);
+   cursor: pointer;
+}
+.hero-container span[target]:hover{
+   color: var(--color-text-priamry-tint);
+   border-bottom-color: var(--color-text-priamry-tint);
 }
 .hero-container p{
    color: var(--color-text-priamry-shade);
@@ -45,13 +50,32 @@ nav{
    width: 100%;
 }
 nav ul{
+   display: flex;
+   flex-direction: column;
    color: inherit;
    border: var(--border-size1) solid var(--color-text-primary);
    border-radius: 5px;
 }
-nav ul div{
+nav ul .button-style{
    color: inherit;
+   cursor: pointer;
 }
 nav ul .button-style:last-child{
    border-bottom: none;
+}
+
+@media (min-width: 800px){
+   nav ul{
+      flex-direction: row;
+      justify-content: center;
+      border: none;
+   }
+   nav ul .button-style{
+      width: 11rem;
+      padding: 1rem;
+      border: var(--border-size1) solid var(--color-text-primary);
+   }
+   nav ul .button-style:last-child{
+      border-bottom: var(--border-size1) solid var(--color-text-primary);
+   }
 }

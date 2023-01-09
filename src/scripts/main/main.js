@@ -44,6 +44,6 @@ function renderContact(tabInstance){
    tabInstance.show();
 }
 // TODO: Delete this
-const tabInstance = new RenderTab();
-tabInstance.setTitle("test");
-renderIntro(tabInstance);
+// const tabInstance = new RenderTab();
+// tabInstance.setTitle("test");
+// renderIntro(tabInstance);
