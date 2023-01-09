@@ -46,3 +46,9 @@
    padding: var(--padding1);
    user-select: none;
 }
+
+@media (min-width: 1200px){
+   :root{
+      --padding-sides: 0 5rem;
+   }
+}
