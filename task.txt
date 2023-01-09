@@ -1,0 +1,12 @@
+Kuo tiksliau atkartoti nuotraukose pavaizduotą puslapį.
+
+Puslapis yra 1 html failas veikiantis tab'ų principu. (paspaudus ant mygtuko, paslepiamas pradinis vaizdas ir atvaizduojama atitinkamo tab'o informacija. Išjungus tab'ą, grąžinamas pradinis puslapio vaizdas)
+
+
+resources aplankale yra reikalingos nuotraukos puslapio kūrimui.
+webPhotos aplankale yra puslapio pavyzdinės nuotraukos.
+	mainMobile.PNG nuotraukoje pavaizduotas pradinis puslapio vaizdas telefoninio dydžio ekrane.
+	mainDesktop.PNG nuotraukoje pavaizduotas pradinis puslapio vaizdas kompiuterinio dydžio ekrane.
+	tabMobile.PNG nuotraukoje pavaizduotas vieno iš tab'ų puslapio vaizdas telefoninio dydžio ekrane.
+	tabDesktop.PNG nuotraukoje pavaizduotas vieno iš tab'ų puslapio vaizdas kompiuterinio dydžio ekrane.
+	f1.PNG, f2.PNG ir f3.PNG nuotraukose pavaizduoti puslapio CSS arba JS funkcionalumai.
