@@ -8,3 +8,8 @@
    box-sizing: border-box;
    font-family: 'Lato', sans-serif;
 }
+
+:root{
+   --color-text-primary: white;
+   --color-text-priamry-shade: #9c9185;
+}
