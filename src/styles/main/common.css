@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins&display=swap');
+@import url('../main/main.css');
+@import url('../header/header.css');
 
 *{
    padding: 0;
