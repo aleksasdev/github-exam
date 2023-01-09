@@ -15,7 +15,8 @@
 
 :root{
    --color-text-primary: white;
-   --color-text-priamry-shade: #eeeded;
+   --color-text-priamry-shade: #ebd9d9;
+   --color-text-priamry-tint: #7fb1d8;
 
    --border-size1: 1px;
    --border-size2: 1.4px;
@@ -41,4 +42,5 @@
    display: flex;
    justify-content: center;
    padding: var(--padding1);
+   user-select: none;
 }
