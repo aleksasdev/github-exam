@@ -12,4 +12,18 @@
 :root{
    --color-text-primary: white;
    --color-text-priamry-shade: #9c9185;
+
+   --border-size1: 1px;
+   --border-size2: 1.4px;
+}
+
+.line-container-style{
+   width: 100%;
+   display: flex;
+   justify-content: center;
+}
+.line-style{
+   width: var(--border-size1);
+   height: 2.5rem;
+   background-color: var(--color-text-primary);
 }
