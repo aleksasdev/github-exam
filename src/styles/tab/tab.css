@@ -38,8 +38,8 @@
    margin-bottom: 1.5rem;
 }
 .tab-container .close-button:hover{
-   transition: transform 0.8s ease-out;
-   transform: rotate(360deg);
+   transition: transform 0.2s ease-out;
+   transform: rotate(90deg);
 }
 
 .tab-container .title-wrapper{
@@ -68,6 +68,7 @@
       padding: 2rem;
       width: 60%;
       height: fit-content;
+      overflow: hidden;
    }
 }
 @media (min-width: 1200px){
