@@ -10,9 +10,13 @@ export default class Tab{
       this.tab = document.createElement('div');
       this.tab.classList.add('tab-container');
 
+      this.tabWrapper = document.createElement('div');
+      this.tabWrapper.classList.add('tab-wrapper');
+
       this.closeButton = document.createElement('img');
       this.closeButton.src = "../../../assets/xmark-solid.svg";
       this.closeButton.classList.add('close-button');
+      this.closeButton.addEventListener('click', e=>this.close());
 
       this.title = document.createElement('h1');
       this.title.classList.add('title');
@@ -21,7 +25,8 @@ export default class Tab{
       this.body = document.createElement('p');
       this.body.classList.add('body');
 
-      this.tab.append(this.closeButton, this.title, this.banner, this.body);
+      this.tabWrapper.append(this.closeButton);
+      this.tab.append(this.tabWrapper);
    }
 
    show(){
@@ -31,7 +36,7 @@ export default class Tab{
 
    close(){
       this.header.style.visibility = "visible";
-      this.container.remove(this.tab);
+      this.container.removeChild(this.tab);
    }
 
 }
