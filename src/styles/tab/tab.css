@@ -1,14 +1,26 @@
 .tab-container{
-   display: flex;
-   justify-content: center;
-   align-items: center;
+   padding: var(--padding-global);
+   position: absolute;
+   height: 100%;
+   width: 100%;
+}
+.tab-container .tab-wrapper{
+   display: grid;
+   grid-auto-rows: max-content;
+   grid-auto-columns: 1fr;
+   gap: 2rem;
    width: 100%;
    height: 100%;
-   position: absolute;
-   flex-direction: column;
+   padding: 0.5rem;
+   background-color: #000000bb;
 }
 .tab-container .close-button{
    width: 3rem;
    height: 3rem;
    justify-self: right;
+}
+.tab-container .banner{
+   width: 100%;
+   height: 15rem;
+   object-fit: cover;
 }
