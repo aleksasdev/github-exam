@@ -12,7 +12,9 @@ export default class Tab{
 
       this.tabWrapper = document.createElement('div');
       this.tabWrapper.classList.add('tab-wrapper');
-
+      
+      this.titleWrapper = document.createElement('div');
+      this.titleWrapper.classList.add('title-wrapper');
       this.closeButton = document.createElement('img');
       this.closeButton.src = "../../../assets/xmark-solid.svg";
       this.closeButton.classList.add('close-button');
@@ -20,12 +22,13 @@ export default class Tab{
 
       this.title = document.createElement('h1');
       this.title.classList.add('title');
+      this.titleWrapper.append(this.title, this.closeButton);
+
       this.banner = document.createElement('img');
       this.banner.classList.add('banner');
       this.body = document.createElement('p');
       this.body.classList.add('body');
 
-      this.tabWrapper.append(this.closeButton);
       this.tab.append(this.tabWrapper);
    }
 
