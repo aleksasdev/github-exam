@@ -33,6 +33,7 @@
    justify-self: right;
    cursor: pointer;
    user-select: none;
+   -webkit-user-drag: none;
 }
 .tab-container .close-button:hover{
    transition: transform 0.8s ease-out;
