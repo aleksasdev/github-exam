@@ -14,21 +14,21 @@
 
 :root{
    --color-text-primary: white;
-   --color-text-priamry-shade: #9c9185;
+   --color-text-priamry-shade: #e6e4e1;
 
    --border-size1: 1px;
    --border-size2: 1.4px;
 
-   --padding-global: 0.5rem;
+   --padding-sides: 0 0.5rem;
    --padding1: 0.5rem;
 }
 
-.line-container-style{
+.line-vertical-container-style{
    width: 100%;
    display: flex;
    justify-content: center;
 }
-.line-style{
+.line-vertical-style{
    width: var(--border-size1);
    height: 2.5rem;
    background-color: var(--color-text-primary);
