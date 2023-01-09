@@ -7,7 +7,7 @@ export default class RenderTab extends Tab{
 
    setTitle(title){
       this.title.textContent = title;
-      this.append(this.title);
+      this.append(this.titleWrapper);
    }
 
    setBanner(src){
