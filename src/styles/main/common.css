@@ -49,8 +49,13 @@
    user-select: none;
 }
 
-@media (min-width: 1200px){
+@media (min-width: 1000px){
    :root{
       --padding-sides: 0 5rem;
+   }
+}
+@media (min-width: 1300px){
+   :root{
+      --font-size: 18px;
    }
 }
