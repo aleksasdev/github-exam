@@ -13,6 +13,9 @@ function openTab(e){
 function renderIntro(){
    const tabInstance = new RenderTab();
    tabInstance.setTitle("Intro");
+   tabInstance.setVideoBanner("../../../assets/tab-1.mp4");
+   tabInstance.addParagraph("Lorem ipsum dolor sit amet consectetur adipisicing elit.");
+   tabInstance.addParagraph("Gro vel suscipit facilis libero ipsam doloribus cupiditate vitae culpa!");
    tabInstance.show();
 }
 renderIntro();
