@@ -16,7 +16,7 @@
    height: 100%;
    padding: 1rem;
    background-color: #000000bb;
-   overflow: scroll;
+   overflow: auto;
 }
 .tab-wrapper .title{
    align-self: flex-end;
@@ -68,7 +68,6 @@
       padding: 2rem;
       width: 60%;
       height: fit-content;
-      overflow: hidden;
    }
 }
 @media (min-width: 1200px){
