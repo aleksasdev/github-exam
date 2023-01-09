@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Source+Sans+Pro&display=swap');
 @import url('../main/main.css');
 @import url('../header/header.css');
 
@@ -6,7 +6,10 @@
    padding: 0;
    margin: 0;
    box-sizing: border-box;
-   font-family: 'Lato', sans-serif;
+   font-family: 'Source Sans Pro', sans-serif;
+   color: var(--color-text-primary);
+   letter-spacing: 0.2rem;
+   line-height: 1.5rem;
 }
 
 :root{
@@ -15,6 +18,9 @@
 
    --border-size1: 1px;
    --border-size2: 1.4px;
+
+   --padding-global: 0.5rem;
+   --padding1: 0.5rem;
 }
 
 .line-container-style{
@@ -26,4 +32,11 @@
    width: var(--border-size1);
    height: 2.5rem;
    background-color: var(--color-text-primary);
+}
+
+.button-style{
+   border-bottom: var(--border-size1) solid var(--color-text-primary);
+   display: flex;
+   justify-content: center;
+   padding: var(--padding1);
 }
