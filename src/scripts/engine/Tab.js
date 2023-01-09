@@ -39,4 +39,8 @@ export default class Tab{
       this.container.removeChild(this.tab);
    }
 
+   append(element){
+      this.tabWrapper.append(element);
+   }
+
 }
