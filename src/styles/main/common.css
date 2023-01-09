@@ -20,6 +20,8 @@
 
    --color-primary: #8e837e;
 
+   --font-size: 16px;
+
    --border-size1: 1px;
    --border-size2: 1.4px;
 
@@ -45,4 +47,15 @@
    justify-content: center;
    padding: var(--padding1);
    user-select: none;
+}
+
+@media (min-width: 1000px){
+   :root{
+      --padding-sides: 0 5rem;
+   }
+}
+@media (min-width: 1300px){
+   :root{
+      --font-size: 18px;
+   }
 }

@@ -67,7 +67,7 @@ nav ul .button-style:last-child{
    border-bottom: none;
 }
 
-@media (min-width: 980px){
+@media (min-width: 1140px){
    nav ul{
       flex-direction: row;
       justify-content: center;
